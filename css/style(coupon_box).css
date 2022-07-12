@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 148px;
+    background-color: #021B46;
+    border-radius: 0 0 16px 16px;
+}
+
+#header_arrow {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+}
+
+#header_font-1 {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'yangjin';
+
+}
+
+#header_font-2 {
+    position: absolute;
+    left: 39px;
+    top: 69px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#coupon_report {
+    position: relative;
+    top: -41px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 87.223%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#coupon_img {
+    position: absolute;
+    right: 18px;
+    top: -40px;
+}
+
+#report_text-1 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    top: 24px;
+    left: 24px;
+    font-weight: bold;
+}
+
+#coupon_gauge {
+
+    top: 0;
+
+}
+
+#coupon_gauge>img {
+    position: absolute;
+    top: 68.8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#gauge_num {
+    position: absolute;
+    display: flex;
+    width: 287px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    justify-content: space-between;
+    top: 189.7px;
+}
+
+.gauge_num-all {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.coupon_all {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 77.78%;
+    height: 91px;
+
+    border-radius: 16px;
+}
+
+#coupon_1 {
+    margin-bottom: 16px;
+    background-color: #FFEDE1;
+}
+
+#coupon_2 {
+
+    background-color: #E5E5E5;
+}
+
+#coupon_title_1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#coupon_title_2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#coupon_5000-img {
+    position: absolute;
+    margin-top: 39px;
+    width: 100%;
+    left: 58px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#coupon_10000-img {
+    position: absolute;
+    margin-top: 39px;
+    width: 100%;
+    left: 58px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#coupon_text_1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 39px;
+    right: 55px;
+}
+
+#coupon_text_2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 39px;
+    right: 55px;
+}
+
+
+
+.coupon_text-all {
+    text-align: center;
+}
+
+#coupon_text-1_1 {
+    font-size: 12px;
+}
+
+#coupon_text-1_2 {
+    font-size: 16px;
+}
+
+#coupon_text-2_1 {
+    font-size: 12px;
+}
+
+#coupon_text-2_2 {
+    font-size: 16px;
+}
