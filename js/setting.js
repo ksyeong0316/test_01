@@ -167,17 +167,17 @@ window.addEventListener( 'message', (e) => {
     if(e.data.missionID){
         console.log(e.data.missionID)
         window.localStorage.setItem("missionID", JSON.stringify(e.data.missionID))
-        document.querySelector("#page2").src = "../page2sub.html"
+        document.querySelector("#page2").src = "./page2sub.html"
     }
     if(e.data.login === true){
-        document.querySelector("#page3").src = "../page3sub.html"
+        document.querySelector("#page3").src = "./page3sub.html"
     }
     if(e.data.prevPage){
-        if(e.data.prevPage == "page2"){document.querySelector("#page2").src = "../page2.html"}
-        if(e.data.prevPage == "page2sub"){document.querySelector("#page2").src = "../page2sub.html";}
+        if(e.data.prevPage == "page2"){document.querySelector("#page2").src = "./page2.html"}
+        if(e.data.prevPage == "page2sub"){document.querySelector("#page2").src = "./page2sub.html";}
     }
     if(e.data.NextPage){
-        if(e.data.NextPage == "page2certification"){document.querySelector("#page2").src = "../page2certification.html";}
+        if(e.data.NextPage == "page2certification"){document.querySelector("#page2").src = "./page2certification.html";}
     }
 });
 
