@@ -95,7 +95,7 @@ function checkLogin() {
 
 console.log(missionData[1])
 
-changeMissionData(missionID)
+changeMissionData(1)
 
 function changeMissionData(missionID){
     let mp_missionID = document.querySelector(".mp_missionID");
