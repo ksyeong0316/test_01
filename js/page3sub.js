@@ -13,13 +13,3 @@ function setMissionData(){
 getMissonData()
 
 
-function open () {
-    document.querySelector(".modal_bg").classList.remove("hidden");
-}
-function close () {
-    document.querySelector(".modal_bg").classList.add("hidden");
-}
-
-document.getElementById("c_btn").addEventListener("click", open);
-document.querySelector(".close").addEventListener("click", close);
-document.querySelector(".modal_bg").addEventListener("click", close);   
