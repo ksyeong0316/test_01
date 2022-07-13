@@ -61,16 +61,22 @@ btn.addEventListener("click",checkLogin)
 
 function toprevPage(){
     window.parent.postMessage({prevPage: "page2" }  , 
-    'http://127.0.0.1:5500')
+    '*' )
+    // 'http://ksyeong0316.dothome.co.kr/project2/index.html' )
+        // 'http://127.0.0.1:5500')
 }
 function 인증(){
     window.parent.postMessage({NextPage: "page2certification" }, 
-    'http://127.0.0.1:5500')
+    '*' )
+    // 'http://ksyeong0316.dothome.co.kr/project2/index.html' )
+        // 'http://127.0.0.1:5500')
 }
 function 알림(){
     alert("로그인을 해주세요!")
     window.parent.postMessage({dragX: 2 , pageIndex:2}, 
-    'http://127.0.0.1:5500')
+        '*' )
+        // 'http://ksyeong0316.dothome.co.kr/project2/index.html' )
+        // 'http://127.0.0.1:5500')
 }
 
 /*
