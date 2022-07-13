@@ -45,7 +45,9 @@ console.log(missionData[0].completion)
 function sendPagedata(e){
     // console.log(e)
     window.parent.postMessage({missionID: e.path.reverse()[5].id.slice(e.path.reverse()[5].id.length-1) }  , 
-        'http://127.0.0.1:5500')
+    '*' )
+    // 'http://ksyeong0316.dothome.co.kr/project2/index.html' )
+        // 'http://127.0.0.1:5500')
 }
 
 function setConstructor(){
