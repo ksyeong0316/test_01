@@ -38,7 +38,10 @@ prevPage.addEventListener("click", toprevPage)
 
 function toprevPage(){
     window.parent.postMessage({prevPage: "page2sub" }  , 
-    'http://127.0.0.1:5500')}
+    '*' )
+    // 'http://ksyeong0316.dothome.co.kr/project2/index.html' )
+        // 'http://127.0.0.1:5500')
+}
 
 
     function changeData(missionID){
@@ -49,5 +52,7 @@ function toprevPage(){
 
     function goBingoPage(){
         window.parent.postMessage({prevPage: "page2" }  , 
-        'http://127.0.0.1:5500')
+        '*' )
+        // 'http://ksyeong0316.dothome.co.kr/project2/index.html' )
+        // 'http://127.0.0.1:5500')
     }
