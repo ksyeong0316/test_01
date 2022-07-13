@@ -93,7 +93,7 @@ function checkLogin() {
     loginValue ? 인증():알림()
 }
 
-
+console.log(missionData[1])
 
 changeMissionData(missionID)
 
